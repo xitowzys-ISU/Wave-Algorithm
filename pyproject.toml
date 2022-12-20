@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "wavealgo"
+version = "0.1.0"
+description = ""
+authors = ["Kalinka George <xitowzys@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.23.5"
+matplotlib = "^3.6.2"
+tqdm = "^4.64.1"
+loguru = "^0.6.0"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
